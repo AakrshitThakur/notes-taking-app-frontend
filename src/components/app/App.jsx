@@ -52,6 +52,14 @@ function App() {
                 </AuthProtected>
               }
             />
+            <Route
+              path="*"
+              element={
+                <AuthProtected>
+                  <Notes />
+                </AuthProtected>
+              }
+            />
           </Routes>
         </BrowserRouter>
       </NotesSearchProvider>
