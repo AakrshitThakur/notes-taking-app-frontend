@@ -1,0 +1,25 @@
+@import "tailwindcss";
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+:root {
+  --light-text: #fff;
+  --dark-text: #000;
+  --component-main-bg: #1976d2;
+  --component-secondary-bg: #fff;
+}
+
+.light-text {
+  color: var(--light-text);
+}
+.dark-text {
+  color: var(--dark-text);
+}
+.component-main-bg {
+  background-color: var(--component-main-bg);
+}
+.component-secondary-bg {
+  background-color: var(--component-secondary-bg);
+}
