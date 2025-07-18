@@ -5,8 +5,8 @@ Developed a **personal notes application** using the **MERN stack**. The app sho
 ## 🛠️ Tech Stack
 
 **Frontend:** React.js, Material UI, Tailwind CSS  
-**Backend:** Node.js, Express.js, MongoDB, JWT
-**Deployment:** Netlify (Frontend), Render (Backend)
+**Backend:** Node.js, Express.js, MongoDB, JWT  
+**Deployment:** Netlify (Frontend), Render (Backend)  
 
 ## Live Link
 
@@ -14,8 +14,8 @@ Developed a **personal notes application** using the **MERN stack**. The app sho
 
 ## Demo Account
 
-**Email:** aak@gmail.com
-**Password:** #2004Aak
+**Email:** aak@gmail.com  
+**Password:** #2004Aak  
 
 ## 📦 Setup Instructions
 
