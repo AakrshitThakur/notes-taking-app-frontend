@@ -8,11 +8,14 @@ Developed a **personal notes application** using the **MERN stack**. The app sho
 **Backend:** Node.js, Express.js, MongoDB, JWT
 **Deployment:** Netlify (Frontend), Render (Backend)
 
----
-
 ## Live Link
+
 [Click here](https://notes-taking-app-aak.netlify.app/)
 
+## Demo Account
+
+**Email:** aak@gmail.com
+**Password:** #2004Aak
 
 ## 📦 Setup Instructions
 
