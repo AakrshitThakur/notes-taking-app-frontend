@@ -54,14 +54,17 @@ export default function CreateNote() {
     }
     setErrors({});
     try {
-      const response = await fetch("http://localhost:5000/notes/new", {
-        method: "POST",
-        credentials: "include",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
-      });
+      const response = await fetch(
+        "https://notes-taking-app-backend-d8ss.onrender.com/notes/new",
+        {
+          method: "POST",
+          credentials: "include",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        }
+      );
       const data = await response.json();
       if (data.status !== 200) {
         errorToastify(data.msg);

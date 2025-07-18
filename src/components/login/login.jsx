@@ -47,7 +47,7 @@ export default function Login() {
     }
     setErrors({});
     try {
-      const response = await fetch("http://localhost:5000/auth/login", {
+      const response = await fetch("https://notes-taking-app-backend-d8ss.onrender.com/auth/login", {
         method: "POST",
         credentials: "include",
         headers: {

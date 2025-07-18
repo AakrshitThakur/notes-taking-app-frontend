@@ -9,7 +9,7 @@ export default function Navbar() {
 
   async function handleLogout() {
     try {
-      const response = await fetch("http://localhost:5000/auth/logout", {
+      const response = await fetch("https://notes-taking-app-backend-d8ss.onrender.com/auth/logout", {
         method: "POST",
         credentials: "include",
         headers: {

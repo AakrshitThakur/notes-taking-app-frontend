@@ -48,7 +48,7 @@ export default function Signup() {
     }
     setErrors({});
     try {
-      const response = await fetch("http://localhost:5000/auth/signup", {
+      const response = await fetch("https://notes-taking-app-backend-d8ss.onrender.com/auth/signup", {
         method: "POST",
         credentials: "include",
         headers: {

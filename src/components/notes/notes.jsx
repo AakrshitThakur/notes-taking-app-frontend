@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid, Box, Stack, Button } from "@mui/material";
-import generateUniqueId from "generate-unique-id";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useNavigate } from "react-router-dom";
 import { errorToastify, successToastify } from "@/utils/functions/toastify";
@@ -18,7 +17,7 @@ export default function Notes() {
   });
   async function fetchAllNotes() {
     try {
-      const response = await fetch("http://localhost:5000/notes/", {
+      const response = await fetch("https://notes-taking-app-backend-d8ss.onrender.com/notes/", {
         method: "GET",
         credentials: "include",
         headers: {
@@ -49,7 +48,7 @@ export default function Notes() {
 
   async function deleteNote(id) {
     try {
-      const response = await fetch(`http://localhost:5000/notes/${id}/delete`, {
+      const response = await fetch(`https://notes-taking-app-backend-d8ss.onrender.com/notes/${id}/delete`, {
         method: "POST",
         credentials: "include",
         headers: {

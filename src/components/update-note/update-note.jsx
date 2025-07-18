@@ -32,7 +32,7 @@ export default function CreateNote() {
   React.useEffect(function () {
     async function fetchAllNotes() {
       try {
-        const response = await fetch(`http://localhost:5000/notes/${id}`, {
+        const response = await fetch(`https://notes-taking-app-backend-d8ss.onrender.com/notes/${id}`, {
           method: "GET",
           credentials: "include",
           headers: {
@@ -79,7 +79,7 @@ export default function CreateNote() {
     }
     setErrors({});
     try {
-      const response = await fetch(`http://localhost:5000/notes/${id}`, {
+      const response = await fetch(`https://notes-taking-app-backend-d8ss.onrender.com/notes/${id}`, {
         method: "POST",
         credentials: "include",
         headers: {
